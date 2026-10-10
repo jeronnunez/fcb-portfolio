@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="./favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
+    <link rel="manifest" href="./site.webmanifest" />
+
+
+
+    <title>Jeron - Data Analyst</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body class="bg-[#F8FAFC] text-slate-800 font-sans antialiased selection:bg-blue-100 selection:text-blue-900">
+    <!-- NAVBAR -->
+    <header class="sticky top-0 z-50 bg-[#1E293B] text-white shadow-sm">
+      <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+        <!-- EDIT: NAVBAR_BRAND --> Data Analyst
+        <nav class="flex items-center space-x-8 text-sm font-medium">
+          <a class="text-white hover:text-blue-300 transition-colors" href="#about">About</a>
+          <a class="text-slate-300 hover:text-white transition-colors" href="#projects">Projects</a>
+          <a class="text-slate-300 hover:text-white transition-colors" href="#skills">Skill/Tools</a>
+          <a class="text-slate-300 hover:text-white transition-colors" href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <main class="max-w-5xl mx-auto px-6 py-12 space-y-24">
+      <!-- HERO SECTION -->
+      <section class="flex flex-col md:flex-row items-center gap-12 pt-6">
+        <!-- Profile / Avatar Image -->
+        <div class="w-64 h-64 md:w-72 md:h-72 flex-shrink-0 border-2 border-blue-100 rounded-2xl overflow-hidden bg-white shadow-sm p-2 flex items-center justify-center">
+          <!-- EDIT: PROFILE_IMAGE -->
+          <img alt="Your Name" class="w-full h-full object-cover rounded-xl" src="./profile.jpg" />
+        </div>
+        <!-- Intro Text & Actions -->
+        <div class="flex-1 text-center md:text-left space-y-4">
+          <!-- EDIT: NAME_HEADING -->
+          <h1 class="text-4xl md:text-5xl font-bold tracking-tight text-slate-900">Jeron Derrick Nunez</h1>
+          <!-- EDIT: JOB_TITLE -->
+          <h2 class="text-xl md:text-2xl font-semibold text-blue-600">Data Analyst</h2>
+          <!-- EDIT: SHORT_INTRODUCTION -->
+          <p class="text-slate-600 text-base md:text-lg leading-relaxed max-w-xl">Explore my Data Analyst portfolio featuring data analysis, data visualization, statistical insights, reporting, and dashboards to support smarter business decisions.</p>
+          <div class="flex flex-wrap gap-4 pt-2 justify-center md:justify-start">
+            <!-- EDIT: CTA_VIEW_PROJECTS -->
+            <a class="px-6 py-2.5 rounded-lg bg-blue-600 text-white font-medium shadow-sm hover:bg-blue-700 transition-colors" href="#projects">View My Projects</a>
+            <!-- EDIT: CTA_CONTACT_ME -->
+            <a class="px-6 py-2.5 rounded-lg bg-slate-200 text-slate-700 font-medium hover:bg-slate-300 transition-colors" href="#contact">Contact Me</a>
+          </div>
+        </div>
+      </section>
+      <!-- ABOUT ME SECTION -->
+      <section class="space-y-6" id="about">
+        <h2 class="text-3xl font-bold text-center tracking-tight text-slate-900">About Me</h2>
+        <div class="border border-slate-200 bg-white rounded-3xl p-8 md:p-12 shadow-sm">
+          <!-- EDIT: ABOUT_YOU -->
+          <p class="text-slate-600 text-center leading-relaxed text-base md:text-lg max-w-3xl mx-auto">I am a Data Analyst passionate about transforming raw data into meaningful insights that support informed decision-making and business growth. My expertise includes data cleaning, exploratory data analysis, data visualization, statistical analysis, and reporting to identify trends, patterns, and opportunities. Using analytical tools and data-driven techniques, I aim to simplify complex information and present actionable findings through clear reports and interactive dashboards. I am committed to continuous learning and applying data analytics to solve real-world problems and help organizations make smarter, evidence-based decisions.</p>
+        </div>
+      </section>
+      <!-- PROJECTS SECTION -->
+      <section class="space-y-8" id="projects">
+        <h2 class="text-3xl font-bold text-center tracking-tight text-slate-900">Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Card 1 -->
+          <article class="flex flex-col bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+            <div class="w-full h-48 bg-slate-100 overflow-hidden">
+              <!-- EDIT: PROJECT_IMAGE_1 -->
+              <img alt="Project Title" class="w-full h-full object-cover" src="https://intl-media.fanruan.com/uploads/Xnip2026_07_30_11_00_08_36df05c707.jpg?w=640&q=75" />
+            </div>
+            <div class="p-6 flex flex-col flex-1 space-y-3">
+              <!-- EDIT: PROJECT_TITLE_1 -->
+              <h3 class="text-xl font-bold text-slate-900">Semiconductor Manufacturing Yield Analysis Dashboard</h3>
+              <!-- EDIT: PROJECT_DESCRIPTION_1 -->
+              <p class="text-slate-600 text-sm leading-relaxed flex-1">Develop an interactive data analytics dashboard using Python, SQL, Power BI, or Tableau to analyze semiconductor production yield, defect rates, and process performance. This project aims to identify production bottlenecks, visualize key manufacturing KPIs, and support data-driven decisions to improve yield and reduce defects.</p>
+              <div class="pt-2">
+                <!-- EDIT: PROJECT_LINK_1 -->
+                <a class="inline-block px-5 py-2 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg text-sm transition-colors" href="#">Project Link</a>
+              </div>
+            </div>
+          </article>
+          <!-- Card 2 -->
+          <article class="flex flex-col bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+            <div class="w-full h-48 bg-slate-100 overflow-hidden">
+              <!-- EDIT: PROJECT_IMAGE_2 -->
+              <img alt="Project Title" class="w-full h-full object-cover" src="https://kanbanboard.co.uk/public/storage/uploads/page/1739445097_oee_dashboard.png" />
+            </div>
+            <div class="p-6 flex flex-col flex-1 space-y-3">
+              <!-- EDIT: PROJECT_TITLE_2 -->
+              <h3 class="text-xl font-bold text-slate-900">Predictive Maintenance and Equipment Performance Analytics</h3>
+              <!-- EDIT: PROJECT_DESCRIPTION_2 -->
+              <p class="text-slate-600 text-sm leading-relaxed flex-1">Build a predictive maintenance analytics solution using Python, SQL, and machine data to monitor equipment performance, analyze downtime trends, and identify potential failure patterns in semiconductor manufacturing. The project demonstrates how data analysis and statistical modeling can help reduce unplanned downtime, improve equipment utilization, and support preventive maintenance planning.</p>
+              <div class="pt-2">
+                <!-- EDIT: PROJECT_LINK_2 -->
+                <a class="inline-block px-5 py-2 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg text-sm transition-colors" href="#">Project Link</a>
+              </div>
+            </div>
+          </article>
+          <!-- Card 3 -->
+          <article class="flex flex-col bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+            <div class="w-full h-48 bg-slate-100 overflow-hidden">
+              <!-- EDIT: PROJECT_IMAGE_3 -->
+              <img alt="Project Title" class="w-full h-full object-cover" src="https://intl-media.fanruan.com/uploads/0a2958bc_6d83_40fc_a409_2fd84581da20_da227fcceb.png?w=640&q=75" />
+            </div>
+            <div class="p-6 flex flex-col flex-1 space-y-3">
+              <!-- EDIT: PROJECT_TITLE_3 -->
+              <h3 class="text-xl font-bold text-slate-900">Semiconductor Process Optimization and Statistical Analysis</h3>
+              <!-- EDIT: PROJECT_DESCRIPTION_3 -->
+              <p class="text-slate-600 text-sm leading-relaxed flex-1">Create a data analysis project using Python, Excel, and statistical process control (SPC) to examine semiconductor process parameters, detect anomalies, and evaluate relationships between manufacturing variables and product quality. This project combines electronics engineering knowledge with data analytics to uncover process improvement opportunities, strengthen quality control, and support evidence-based engineering decisions.</p>
+              <div class="pt-2">
+                <!-- EDIT: PROJECT_LINK_3 -->
+                <a class="inline-block px-5 py-2 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg text-sm transition-colors" href="#">Project Link</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- SKILLS AND TOOLS SECTION -->
+      <section class="space-y-8" id="skills">
+        <h2 class="text-3xl font-bold text-center tracking-tight text-slate-900">Skills and Tools</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <!-- Skills Card -->
+          <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
+            <!-- EDIT: SKILLS_HEADING -->
+            <h3 class="text-lg font-bold text-slate-900 pb-3 border-b border-slate-200 text-center">Skills</h3>
+            <ul class="divide-y divide-slate-100 text-slate-700 pt-2">
+              <!-- EDIT: SKILL_ITEM_1 -->
+              <li class="py-2.5">Data Analysis and Statistical Analysis</li>
+              <!-- EDIT: SKILL_ITEM_2 -->
+              <li class="py-2.5">Data Visualization and Dashboard Development</li>
+              <!-- EDIT: SKILL_ITEM_3 -->
+              <li class="py-2.5">Root Cause Analysis and Process Improvement</li>
+            </ul>
+          </div>
+          <!-- Tools / Technologies Card -->
+          <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
+            <!-- EDIT: TOOLS_HEADING -->
+            <h3 class="text-lg font-bold text-slate-900 pb-3 border-b border-slate-200 text-center">Tools / Technologies</h3>
+            <ul class="divide-y divide-slate-100 text-slate-700 pt-2">
+              <!-- EDIT: TOOL_ITEM_1 -->
+              <li class="py-2.5">Power BI</li>
+              <!-- EDIT: TOOL_ITEM_2 -->
+              <li class="py-2.5">SQL</li>
+              <!-- EDIT: TOOL_ITEM_3 -->
+              <li class="py-2.5">Microsoft Excel</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- CONTACT SECTION -->
+      <section class="space-y-6" id="contact">
+        <h2 class="text-3xl font-bold text-center tracking-tight text-slate-900">Contact</h2>
+        <div class="border border-slate-200 bg-white rounded-3xl p-8 md:p-12 shadow-sm text-center space-y-4">
+          <!-- EDIT: CONTACT_INFO -->
+          <p class="text-slate-700 text-lg font-medium">Your Contact Information: +639216123456</p>
+          <!-- EDIT: EMAIL -->
+          <p class="text-slate-600">jdn@gmail.com</p>
+          <div class="pt-2">
+            <!-- EDIT: SOCIAL_LINK -->
+            <a class="inline-block text-blue-600 hover:text-blue-800 font-medium underline underline-offset-4 transition-colors" href="https://linkedin.com/in/jeronnunez">Your Social Link</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="mt-20 border-t border-slate-200 bg-white py-8 text-center text-sm text-slate-500">
+      <div class="max-w-5xl mx-auto px-6">
+        <!-- EDIT: FOOTER_NOTE -->
+        <p>© 2026  Jeron Derrick Nunez. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
